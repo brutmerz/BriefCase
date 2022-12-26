@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>BRUTMERZ DEV</title>
+</head>
+
+<body>
+    <!--SECTION BEGINING-->
+<section id="home">
+    <div class="content">
+        <header>
+            <div class="content-header">
+                <h1>SOFTWARE DEVELOPER</h1>
+                <nav id="nav" class="">
+                    <ul id="links">  
+                        <li><a href="#home" class="selected" onclick="selection(this)">HOME</a></li>
+                        <li><a href="#aboutme" onclick="selection(this)">ABOUT ME</a></li>
+                        <li><a href="#services" onclick="selection(this)">SERVICES</a></li>
+                        <li><a href="#briefcase" onclick="selection(this)">BRIEFCASE</a></li>
+                        <li><a href="#contact" onclick="selection(this)">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div id="icon-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div> 
+                 <!--icon social media-->
+                <div class="social">
+                    <a href="https://www.instagram.com/brumertz1013/" target="_blank", href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Brandon.Morales0716?mibextid=LQQJ4d" target="_blank", href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Brumertz1013" target="_blank", href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank", href="#"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>   
+            </div>
+        </header>
+        <div class="presentation">
+
+            <p class="welcome">WELCOME</p>
+            <h2>I'm <span>Brandon Morales,</span> Software Developer</h2>
+            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#briefcase"> Go to briefcase</a>
+
+        </div>
+    </div>
+</section>    
+ <!--SECTION ABOUT ME-->
+<section id="aboutme">
+    <div class="container-photo">
+        <img src="./img/YO.jpg" alt="">
+    </div>
+    <div class="aboutme">
+        <p class="section-tittle">About Me</p>
+        <h2>Hello I'm <span>Brandon Morales</span></h2>
+        <h3>Web Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Iste blanditiis ea, ipsa laborum sit asperiores, tempora similique dolor eos nesciunt voluptates
+        temporibus veniam iusto dolore accusantium omnis est incidunt et.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit.</p>
+        <a href="#">Download Cv</a>
+
+    </div>
+   
+</section> 
+
+<!--SECTION SERVICES-->
+
+<section id="services">
+        <h3 class="section-tittle">MY SERVICES</h3>
+        <div class="queue">
+            <div class="service">
+                <span class="icon"> <i class="fa-solid fa-code"></i></span>
+                <h4>Web Design</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+            <div class="service">
+                <span class="icon"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Js Programming</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime vero fuga. Quo, magnam voluptate soluta hic laborum dolor ab ad. </div>
+            <div class="service">
+                <span class="icon"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>SEO</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi voluptate dolorem, possimus perspiciatis ratione rem excepturi quidem.</p>
+            </div>
+</section>   
+
+    <!-- SKILL SECTION -->
+    <div class="container-skills" id="skills">
+        <h3>SKILLS</h3>
+        <div class="skill">
+            <div class="inf">
+                <p> <span class="list"> </span>Html & Css</p>
+                <span class="percentage">60%</span>
+            </div>
+
+            <div class="bar">
+                <div class="progress-bar1" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="inf">
+                <p> <span class="list"> </span>Javascript</p>
+                <span class="percentage">30%</span>
+            </div>
+
+            <div class="bar">
+                <div class="progress-bar2" id="Js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="inf">
+                <p> <span class="list"> </span>Illustrator</p>
+                <span class="percentage">70%</span>
+            </div>
+
+            <div class="bar">
+                <div class="progress-bar3" id="Il"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="inf">
+                <p> <span class="list"> </span>Photoshop</p>
+                <span class="percentage">45%</span>
+            </div>
+
+            <div class="bar">
+                <div class="progress-bar4" id="Ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--BRIEFCASE SECTION-->
+<section  id="briefcase">
+    <h3 class="section-tittle">MY PROYECTS</h3>
+    <div class="queue">
+        <div class="proyect">
+            <div class="overlay"></div>
+            <img src="./img/proyecto1.jpg" alt="">
+            <div class="inf">
+                <h4>Proyect description</h4>
+                <p>Web Desing</p>
+            </div>
+        </div>
+        <div class="proyect">
+            <div class="overlay"></div>
+            <img src="./img/proyecto2.jpg" alt="">
+            <div class="inf">
+                <h4>Proyect description</h4>
+                <p>Web Desing</p>
+            </div>
+        </div>
+        <div class="proyect">
+            <div class="overlay"></div>
+            <img src="./img/proyecto3.jpg" alt="">
+            <div class="inf">
+                <h4>Proyect description</h4>
+                <p>Web Desing</p>
+            </div>
+        </div>
+        <div class="proyect">
+            <div class="overlay"></div>
+            <img src="./img/proyecto4.jpg" alt="">
+            <div class="inf">
+                <h4>Proyect description</h4>
+                <p>Web Desing</p>
+            </div>
+        </div>
+    </div>   
+</section>
+
+<section id="contact">
+    <h3 class="section-tittle">CONTACT US</h3>
+    <div class="container-form">
+        <form action="">
+            <div class="middle queue">
+                <input type="text" placeholder="Full Name" class="middle-input">
+                <input type="text" placeholder="Phone Number" class="middle-input">
+                <input type="text" placeholder="Email Addres" class="middle-input">
+            </div>
+            <div class=" queue ">
+                <input type="text" placeholder="Theme.." class="full-input">
+            </div>
+            <div class="queue">
+                <textarea name="" id="" cols="30" rows="10" placeholder="You Message.." class="full-input"></textarea>
+            </div>
+            <input type="submit" value=" Send Message " class="bton-send">
+        </form>
+    </div>
+</section>
+<!--FOOTER SETION-->
+<footer>
+    <P> Copyright-2022 </P>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+</footer>
+<script src="./js/scrip.js"></script>
+    
+</body>
+
+</html>
